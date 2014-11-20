@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>ы</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="1000" height="500"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+	  
+      context.save();
+
+
+ 
+	  context.beginPath();
+      context.strokeStyle = 'black';  
+      context.lineWidth = 1;
+	  context.arc(170, 106, 95, 1* Math.PI, 0, false);
+	  context.closePath();
+      context.fillStyle = 'red';
+      context.fill();
+	  context.stroke();
+	  
+	  	  context.beginPath();
+      context.strokeStyle = 'black';  
+      context.lineWidth = 1;
+	  context.arc(110, 76, 13,0, 2* Math.PI, false);
+	  context.closePath();
+      context.fillStyle = 'white';
+      context.fill();
+	  context.stroke();
+	  
+	  context.beginPath();
+      context.strokeStyle = 'black';  
+      context.lineWidth = 1;
+	  context.arc(150, 36, 10,0, 2* Math.PI, false);
+	  context.closePath();
+      context.fillStyle = 'white';
+      context.fill();
+	  context.stroke();
+	  
+	  	  context.beginPath();
+      context.strokeStyle = 'black';  
+      context.lineWidth = 1;
+	  context.arc(164, 86, 15,0, 2* Math.PI, false);
+	  context.closePath();
+      context.fillStyle = 'white';
+      context.fill();
+	  context.stroke();
+	  
+	  	  	  context.beginPath();
+      context.strokeStyle = 'black';  
+      context.lineWidth = 1;
+	  context.arc(234, 86, 8,0, 2* Math.PI, false);
+	  context.closePath();
+      context.fillStyle = 'white';
+      context.fill();
+	  context.stroke();
+	  
+	  context.beginPath();
+      context.strokeStyle = 'black';  
+      context.lineWidth = 1;
+	  context.arc(204, 40, 16,0, 2* Math.PI, false);
+	  context.closePath();
+      context.fillStyle = 'white';
+      context.fill();
+	  context.stroke();
+
+	  context.moveTo(200,106);
+	  context.lineTo(200,250);
+	  context.moveTo(150,106);
+	  context.lineTo(150,250);
+	  context.stroke();
+
+	  	context.beginPath();
+      context.strokeStyle = 'brown';  
+      context.lineWidth = 1;
+	  context.arc(175, 253, 25, 0, 1* Math.PI, false);
+	  context.closePath();
+      context.fillStyle = 'brown';
+      context.fill();
+	  context.stroke();
+	  
+	  var canvas = document.getElementById('myCanvas');
+var holst = canvas.getContext('2d');
+holst.fillStyle = "brown";  
+holst.fillRect(151, 107, 48, 146);
+
+var context = canvas.getContext("2d");                            
+var x = canvas.width / 2;                                         
+var y = canvas.height / 2;                                        
+/*var radius = 75;*/                                                  
+var startAngle = 1.95 * Math.PI;                                   
+var endAngle = 1.05 * Math.PI;                                     
+var counterClockwise = false;                                     
+                                                                   
+context.beginPath();                                              
+context.arc(175, 254, 25, startAngle, endAngle, counterClockwise);
+context.lineWidth = 1;                                           
+// line color                                                     
+context.strokeStyle = "black";                                    
+context.stroke();
+	  
+
+	  
+/*	
+  
+	  context.beginPath();
+      context.strokeStyle = 'black';  
+      context.lineWidth = 1;
+	  context.arc(123, 160, 40, 0, 2 * Math.PI, false);
+	  context.closePath();
+      context.fillStyle = 'yellow';
+      context.fill();
+	  context.stroke();
+	  
+
+	  context.beginPath();
+	  context.strokeStyle = 'black';
+	  context.lineWidth = 1;	  
+		for (var i = 0 * Math.PI; i < 2 * Math.PI; i += 0.01 ) {
+		xPos = 170 - (90 * Math.sin(i)) * Math.sin(0 * Math.PI) + (10 * Math.cos(i)) * Math.cos(0 * Math.PI);
+		yPos = 210 + (10 * Math.cos(i)) * Math.sin(0 * Math.PI) + (90 * Math.sin(i)) * Math.cos(0 * Math.PI);
+
+		if (i == 0) {
+        context.moveTo(xPos, yPos);
+		} else {
+        context.lineTo(xPos, yPos);
+		}
+		}
+	  context.closePath();
+	  context.fillStyle = 'brown';
+	  context.fill();
+	  context.stroke();
+	   
+*/	  
+    </script>
+  </body>
+</html>
